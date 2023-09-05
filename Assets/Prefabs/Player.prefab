@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5967546524336915708}
-  - component: {fileID: 295941979362444428}
+  - component: {fileID: 6762599754166505235}
   m_Layer: 0
   m_Name: TurretPivot
   m_TagString: Untagged
@@ -117,7 +117,7 @@ Transform:
   - {fileID: 4558514575666167992}
   m_Father: {fileID: 5789348561596946028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &295941979362444428
+--- !u!114 &6762599754166505235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1258994314469171106}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f3e13ca9a26f524bb44072922ae9c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 0
@@ -134,10 +134,10 @@ MonoBehaviour:
   SyncPositionZ: 0
   SyncRotAngleX: 0
   SyncRotAngleY: 0
-  SyncRotAngleZ: 1
+  SyncRotAngleZ: 0
   SyncScaleX: 0
   SyncScaleY: 0
-  SyncScaleZ: 0
+  SyncScaleZ: 1
   PositionThreshold: 0.001
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
@@ -241,7 +241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 968386713783301301}
   - component: {fileID: 513199420722560298}
-  - component: {fileID: 8603528284353129005}
+  - component: {fileID: 6117941220358805139}
   - component: {fileID: 8297848132754005212}
   m_Layer: 0
   m_Name: TankTreads
@@ -318,7 +318,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8603528284353129005
+--- !u!114 &6117941220358805139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3225237633430421220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f3e13ca9a26f524bb44072922ae9c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 0
@@ -335,10 +335,10 @@ MonoBehaviour:
   SyncPositionZ: 0
   SyncRotAngleX: 0
   SyncRotAngleY: 0
-  SyncRotAngleZ: 1
+  SyncRotAngleZ: 0
   SyncScaleX: 0
   SyncScaleY: 0
-  SyncScaleZ: 0
+  SyncScaleZ: 1
   PositionThreshold: 0.001
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
@@ -403,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5789348561596946028}
   - component: {fileID: 7480950351335779848}
-  - component: {fileID: 2634669745300473759}
+  - component: {fileID: 3280859842156632369}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -448,7 +448,7 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &2634669745300473759
+--- !u!114 &3280859842156632369
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -457,7 +457,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5925453555034477181}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f3e13ca9a26f524bb44072922ae9c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
