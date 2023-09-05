@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259171080594731038}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.425, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -405,6 +405,7 @@ GameObject:
   - component: {fileID: 7480950351335779848}
   - component: {fileID: 3280859842156632369}
   - component: {fileID: 2341700922770871071}
+  - component: {fileID: 7988879013344491774}
   - component: {fileID: 4487574975649484068}
   m_Layer: 0
   m_Name: Player
@@ -497,6 +498,20 @@ MonoBehaviour:
   rb: {fileID: 4487574975649484068}
   movementSpeed: 5
   turningRate: 250
+--- !u!114 &7988879013344491774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5925453555034477181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0aa951f99a50a14490e98d285d7faaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputReader: {fileID: 11400000, guid: d2f9bd0bd3fa32d44bbe89fe2ccb5589, type: 2}
+  turretTransform: {fileID: 5967546524336915708}
 --- !u!50 &4487574975649484068
 Rigidbody2D:
   serializedVersion: 4
